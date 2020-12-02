@@ -1,4 +1,4 @@
-function futureAlertV2(type,message) {
+function futureAlert(type,message) {
  if(type && message) {
  	var typelower = type.toLowerCase();
  	if (typelower == "error" || "warning" || "info" || "success") {
