@@ -1,0 +1,98 @@
+* {
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(22,22,22);
+	font-family: "Segoe UI", sans-serif;
+}
+
+.fa-alert-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.fa-alert {
+	background-color: white;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white;
+	transition: all 1s;
+}
+
+.fa-alert-text {
+	color: black;	
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	text-shadow: 0 0 2px;
+	position: absolute;
+}
+
+.fa-alert-button {
+	background-color: rgba(255,255,255,0);
+	margin-left: 70px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 20px;
+	text-shadow: 0 0 2px;
+	height: 100%;
+	width: 100%;
+	position: static;
+	outline: none;
+	cursor: pointer;
+}
+
+.fa-success {
+	background-color: rgb(100,255,100);
+	box-shadow: 0 0 10px rgb(100,255,100);
+}
+
+.fa-error {
+	background-color: rgb(255,100,100);
+	box-shadow: 0 0 10px rgb(255,100,100);
+}
+
+.fa-info {
+	background-color: rgb(100,150,255);
+	box-shadow: 0 0 10px rgb(100,150,255);
+}
+
+.fa-warning {
+	background-color: rgb(255,255,100);
+	box-shadow: 0 0 10px rgb(255,255,100);
+}
+
+
+.fa-i {
+	animation: i 1s linear 0s;
+}
+
+@keyframes i {
+from {
+	opacity: 0;
+}
+to {
+	opacity: 1;
+}
+}
+
+.fa-o {
+	animation: o 1s linear 0s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes o {
+from {
+	opacity: 1;
+}
+to {
+	opacity: 0;
+	display: none;
+}
+}
