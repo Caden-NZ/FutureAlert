@@ -1,7 +1,7 @@
 # FutureAlert
 Nice looking alerts for your websites made with JavaScript
 
-## Useage
+## Usage
 First you'll need to add FutureAlert to your website. To do so, paste the code below into your `<head>` tag.
 ```html
 <link rel="stylesheet" href="https://caden-nz.github.io/FutureAlert/futureAlert.css"/>
